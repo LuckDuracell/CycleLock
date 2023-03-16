@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct CycleLockApp: App {
+    
+    let screen = UIScreen.main.bounds
+    @StateObject var launchScreenState = LaunchScreenStateManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ZStack {
+                ContentView()
+                    .preferredColorScheme(.light)
+                if launchScreenState.state != .finished {
+                    LaunchScreenView()
+                }
+            } .environmentObject(LaunchScreenStateManager())
         }
     }
 }

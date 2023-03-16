@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A06DA0A29BF895800D2A890 /* StaticDotBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A06DA0929BF895800D2A890 /* StaticDotBackground.swift */; };
+		0A33662829C0ECD900E25C19 /* TransactionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A33662729C0ECD900E25C19 /* TransactionCard.swift */; };
+		0A33662A29C0EDDA00E25C19 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A33662929C0EDDA00E25C19 /* Transactions.swift */; };
+		0A33662C29C21CDF00E25C19 /* BouncyMapRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A33662B29C21CDF00E25C19 /* BouncyMapRotate.swift */; };
+		0A33662E29C2225C00E25C19 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A33662D29C2225C00E25C19 /* MainPage.swift */; };
+		0A33663029C222F700E25C19 /* AccountSettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A33662F29C222F700E25C19 /* AccountSettingsPage.swift */; };
+		0A33663329C2266D00E25C19 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 0A33663229C2266D00E25C19 /* CodeScanner */; };
+		0A33663529C2C20800E25C19 /* TransactionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A33663429C2C20800E25C19 /* TransactionPage.swift */; };
+		0A33663729C2C97300E25C19 /* LaunchScreenStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A33663629C2C97300E25C19 /* LaunchScreenStep.swift */; };
+		0A33663929C2CA2400E25C19 /* LaunchScreenStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A33663829C2CA2400E25C19 /* LaunchScreenStateManager.swift */; };
+		0A33663B29C2CA4B00E25C19 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A33663A29C2CA4B00E25C19 /* LaunchScreenView.swift */; };
+		0A33663D29C2D33800E25C19 /* ActiveLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A33663C29C2D33800E25C19 /* ActiveLock.swift */; };
 		0A387D8F29BBB69A000C213B /* CycleLockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A387D8E29BBB69A000C213B /* CycleLockApp.swift */; };
 		0A387D9129BBB69A000C213B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A387D9029BBB69A000C213B /* ContentView.swift */; };
 		0A387D9329BBB69B000C213B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A387D9229BBB69B000C213B /* Assets.xcassets */; };
@@ -14,6 +26,9 @@
 		0A387DA029BBB69B000C213B /* CycleLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A387D9F29BBB69B000C213B /* CycleLockTests.swift */; };
 		0A387DAA29BBB69B000C213B /* CycleLockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A387DA929BBB69B000C213B /* CycleLockUITests.swift */; };
 		0A387DAC29BBB69B000C213B /* CycleLockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A387DAB29BBB69B000C213B /* CycleLockUITestsLaunchTests.swift */; };
+		0A387DB929BBF551000C213B /* DotGridBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A387DB829BBF551000C213B /* DotGridBackground.swift */; };
+		0A387DBB29BC0070000C213B /* LargeTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A387DBA29BC0070000C213B /* LargeTitle.swift */; };
+		0AFFB0D529BC7F6D00396747 /* CityMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFFB0D429BC7F6D00396747 /* CityMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A06DA0929BF895800D2A890 /* StaticDotBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticDotBackground.swift; sourceTree = "<group>"; };
+		0A33662729C0ECD900E25C19 /* TransactionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCard.swift; sourceTree = "<group>"; };
+		0A33662929C0EDDA00E25C19 /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		0A33662B29C21CDF00E25C19 /* BouncyMapRotate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncyMapRotate.swift; sourceTree = "<group>"; };
+		0A33662D29C2225C00E25C19 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		0A33662F29C222F700E25C19 /* AccountSettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsPage.swift; sourceTree = "<group>"; };
+		0A33663429C2C20800E25C19 /* TransactionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionPage.swift; sourceTree = "<group>"; };
+		0A33663629C2C97300E25C19 /* LaunchScreenStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenStep.swift; sourceTree = "<group>"; };
+		0A33663829C2CA2400E25C19 /* LaunchScreenStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenStateManager.swift; sourceTree = "<group>"; };
+		0A33663A29C2CA4B00E25C19 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		0A33663C29C2D33800E25C19 /* ActiveLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveLock.swift; sourceTree = "<group>"; };
 		0A387D8B29BBB69A000C213B /* CycleLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CycleLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A387D8E29BBB69A000C213B /* CycleLockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleLockApp.swift; sourceTree = "<group>"; };
 		0A387D9029BBB69A000C213B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +70,9 @@
 		0A387DA529BBB69B000C213B /* CycleLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CycleLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A387DA929BBB69B000C213B /* CycleLockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleLockUITests.swift; sourceTree = "<group>"; };
 		0A387DAB29BBB69B000C213B /* CycleLockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleLockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0A387DB829BBF551000C213B /* DotGridBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotGridBackground.swift; sourceTree = "<group>"; };
+		0A387DBA29BC0070000C213B /* LargeTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTitle.swift; sourceTree = "<group>"; };
+		0AFFB0D429BC7F6D00396747 /* CityMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A33663329C2266D00E25C19 /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +104,9 @@
 		0A387D8229BBB69A000C213B = {
 			isa = PBXGroup;
 			children = (
+				0A33663A29C2CA4B00E25C19 /* LaunchScreenView.swift */,
+				0A33663829C2CA2400E25C19 /* LaunchScreenStateManager.swift */,
+				0A33663629C2C97300E25C19 /* LaunchScreenStep.swift */,
 				0A387D8D29BBB69A000C213B /* CycleLock */,
 				0A387D9E29BBB69B000C213B /* CycleLockTests */,
 				0A387DA829BBB69B000C213B /* CycleLockUITests */,
@@ -96,6 +129,17 @@
 			children = (
 				0A387D8E29BBB69A000C213B /* CycleLockApp.swift */,
 				0A387D9029BBB69A000C213B /* ContentView.swift */,
+				0A33662F29C222F700E25C19 /* AccountSettingsPage.swift */,
+				0A33662D29C2225C00E25C19 /* MainPage.swift */,
+				0A33663C29C2D33800E25C19 /* ActiveLock.swift */,
+				0A33663429C2C20800E25C19 /* TransactionPage.swift */,
+				0A33662B29C21CDF00E25C19 /* BouncyMapRotate.swift */,
+				0A33662929C0EDDA00E25C19 /* Transactions.swift */,
+				0A33662729C0ECD900E25C19 /* TransactionCard.swift */,
+				0A06DA0929BF895800D2A890 /* StaticDotBackground.swift */,
+				0AFFB0D429BC7F6D00396747 /* CityMap.swift */,
+				0A387DBA29BC0070000C213B /* LargeTitle.swift */,
+				0A387DB829BBF551000C213B /* DotGridBackground.swift */,
 				0A387D9229BBB69B000C213B /* Assets.xcassets */,
 				0A387D9429BBB69B000C213B /* Preview Content */,
 			);
@@ -143,6 +187,9 @@
 			dependencies = (
 			);
 			name = CycleLock;
+			packageProductDependencies = (
+				0A33663229C2266D00E25C19 /* CodeScanner */,
+			);
 			productName = CycleLock;
 			productReference = 0A387D8B29BBB69A000C213B /* CycleLock.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +262,9 @@
 				Base,
 			);
 			mainGroup = 0A387D8229BBB69A000C213B;
+			packageReferences = (
+				0A33663129C2266D00E25C19 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 0A387D8C29BBB69A000C213B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +307,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A33663D29C2D33800E25C19 /* ActiveLock.swift in Sources */,
+				0A387DBB29BC0070000C213B /* LargeTitle.swift in Sources */,
+				0A33662C29C21CDF00E25C19 /* BouncyMapRotate.swift in Sources */,
+				0A33663729C2C97300E25C19 /* LaunchScreenStep.swift in Sources */,
+				0AFFB0D529BC7F6D00396747 /* CityMap.swift in Sources */,
 				0A387D9129BBB69A000C213B /* ContentView.swift in Sources */,
+				0A33663B29C2CA4B00E25C19 /* LaunchScreenView.swift in Sources */,
+				0A33662829C0ECD900E25C19 /* TransactionCard.swift in Sources */,
+				0A33663929C2CA2400E25C19 /* LaunchScreenStateManager.swift in Sources */,
+				0A33662E29C2225C00E25C19 /* MainPage.swift in Sources */,
 				0A387D8F29BBB69A000C213B /* CycleLockApp.swift in Sources */,
+				0A33663529C2C20800E25C19 /* TransactionPage.swift in Sources */,
+				0A33663029C222F700E25C19 /* AccountSettingsPage.swift in Sources */,
+				0A387DB929BBF551000C213B /* DotGridBackground.swift in Sources */,
+				0A33662A29C0EDDA00E25C19 /* Transactions.swift in Sources */,
+				0A06DA0A29BF895800D2A890 /* StaticDotBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +484,14 @@
 				DEVELOPMENT_TEAM = RV78ENMXZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CycleLock;
+				INFOPLIST_KEY_NSCameraUsageDescription = "By enabling the camera, we can scan the barcodes to activate your bike locks.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +516,14 @@
 				DEVELOPMENT_TEAM = RV78ENMXZ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CycleLock;
+				INFOPLIST_KEY_NSCameraUsageDescription = "By enabling the camera, we can scan the barcodes to activate your bike locks.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,6 +653,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0A33663129C2266D00E25C19 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0A33663229C2266D00E25C19 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A33663129C2266D00E25C19 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0A387D8329BBB69A000C213B /* Project object */;
 }
